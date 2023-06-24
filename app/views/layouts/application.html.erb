@@ -10,13 +10,22 @@
     <%= javascript_importmap_tags %>
   </head>
   <body>
-    <main class="main">
+    <main id="main">
 
     <%= render 'shared/header' %>
     
     <%= yield %>
 
     <%= render 'shared/footer' %>
+    
     </main>
+    
+    <%# Script %>
+
+    <script src="https://kit.fontawesome.com/166fe20303.js" crossorigin="anonymous"></script>
+    <%= javascript_include_tag 'jquery.min'%>
+    <%= javascript_include_tag 'browser.min'%>
+    <%= javascript_include_tag 'breakpoints.min'%>
+    <%= javascript_include_tag 'main'%>
   </body>
 </html>
