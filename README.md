@@ -32,7 +32,7 @@ Sigue estos pasos para instalar y ejecutar el proyecto:
 
         rails server
 
-    6. Abre tu navegador web y visita http://localhost:3000 para ver el proyecto en acción.
+6.  Abre tu navegador web y visita http://localhost:3000 para ver el proyecto en acción.
 
 ## Características principales
 
